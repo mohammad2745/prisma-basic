@@ -23,7 +23,7 @@ npx prisma init --datasource-provider postgresql
 <p>When changes in prisma schema</p>
 
 ```sh
-npx prisma migrate dev --name init
+npx prisma migrate dev 
 ```
 
 <p>Install prisma client</p>
@@ -37,4 +37,5 @@ npm i @prisma/client
 ```sh
 npx prisma generate
 ```
+
 
